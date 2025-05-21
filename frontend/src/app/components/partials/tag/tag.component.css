@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    
+    }
+
+div a{
+    background-color: #f0f0f0;
+    padding: 0.3rem 1rem;
+    margin: 0.2rem, 1rem;
+    border-radius: 10rem;
+    font-weight: 600;
+    color: blue;
+}

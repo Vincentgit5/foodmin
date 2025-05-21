@@ -1,0 +1,29 @@
+<header>
+    <div class="container">
+        <a href="/" class="logo"> Ndock </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="/login">Login</a>
+                </li>
+                <li>
+                    <div class="menu-container">
+                        <a href="/menup">Menu</a>
+                        <div class="menu">
+                            <a href="/profile">Profile</a>
+                            <a href="/order">App</a>
+                            <a>Logout</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a routerLink="/card-page">
+                        Card <span>{{cartQuantity}}</span>
+                    </a>  
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
